@@ -1,0 +1,191 @@
+[
+	{
+		"name": "Ukraine",
+		"leaderName": "В. Зеленский",
+		"adjective": ["Ukrainian"],
+		"startBias": ["Plains", "Grassland"],
+		"preferredVictoryType": "Diplomatic",
+		"favoredReligion":"Kievan religion"
+		
+		"startIntroPart1": "Привіт, Слава Україні.",
+		"startIntroPart2": "Героям слава!",
+		
+		"declaringWar": "За батьківщину!",
+		"attacked": "За батьківщину!",
+		"defeated": "Мій народ буде жити.",
+		"introduction": "Я Зеленський, президент України, приємно познайомитись",
+		
+		"neutralHello": "ку",
+		"neutralNo": ["Багато хочеш"],
+		"neutralYes": ["ладно"],
+		
+		"afterPeace": "Я вважаю що ти це правильно зробив.",
+		"tradeRequest": "Приємно працювати з такими як ти.",
+
+		"outerColor": [0,128,255],
+		"innerColor": [255,255,51],
+		"uniqueName":"Strength of nation"
+		"uniques": ["[+8]% Strength <vs [All] units>",
+ "[+1 Culture] from [Farm] tiles [in all cities]"],
+		"cities": ["Киев", "Чернигов", "Черкасы","Одеса", "Харковь", "Херсон", "Черновцы", "Сумы", "Хмельницк", "Буковель", "Севастополь", "Луганск", "Донецк"]
+		"spyNames":["Oleksandr", "Arseniy", "Volodymir", "Anna", "Dmytro", "Sergiy", "Ivan", "Taras"]
+	},
+	{
+		"name":"Russian federation",
+		"leaderName":"В.Путин",
+		"adjective":["Russian"],
+		"startBias":["Avoid [Desert]"]
+		"preferredVictoryType":"Domination"
+		"favoredReligion":"Moscow religion"
+		
+		"startIntroPart1":"Хочу возродить СССР, поможешь?"
+		"startIntroPart2":" "
+		"declaringWar":"Нет хохлам"
+		"attacked":"ах ты сука"
+		"defeated":"я выиграл?"
+		"neutralHello":"Ку"
+		"neutralNo":"Иди нахуй"
+		"neutralYes":"Приемно иметь дело"
+		"introduction":"Я Путин, не ставьте санкции пж."
+
+		"outerColor": [34, 129, 32],
+		"innerColor": [251, 199, 93],
+		"uniqueName":"Biggest nation"
+		"uniques":["[+1 Production, +1 Food] in cities on [Snow] tiles",
+"Double quantity of [Oil] produced",
+]
+
+		"cities":[
+"Москва", "Ростов",  "Екатеринбург", "Санкт-Петербург", "Калининград", "Омск", "Новосибирск", "Казань", "Астрахань", "Самара", "Челябинск", "Пермь", "Саратов", "Воронеж"
+					]
+					
+		"spyNames":[
+"Aleksandr", "Sergey", "Arseniy", "Mikhail", "Dmytry", "Vladymir", "Joseph"
+					]
+					
+	},
+	{
+		"name": "Donbas",
+		"leaderName": "Unknown",
+		"adjective": ["Dombasian"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Time",
+		"favoredReligion":"Christianity"
+		
+		"startIntroPart1": "Привет, теперь ты бомбил домбас 8 лет >:)   .",
+		"startIntroPart2": "И еще ты гей",
+		
+		"declaringWar": "Тебе Пізда",
+		"attacked": "Бля.....",
+		"defeated": "Я гей",
+		"introduction": "Где ты был эти 8 лет?",
+		
+		"neutralHello": "Салям",
+		"neutralNo": ["no, hahaha", "Nine"],
+		"neutralYes": ["Ок"],
+		
+		"afterPeace": "Не здох — мужик",
+		"tradeRequest": "Нормас",
+
+		"outerColor": [194,71,71],
+		"innerColor": [255,196,0],
+		"uniqueName":"8 лет бомбить Домбас"
+		"uniques": ["[+25]% Strength <vs [City-States]>",
+ "Double quantity of [Iron] produced",
+"Double quantity of [Coal] produced",
+],
+		"cities": ["Донецк", "Авдеевка", "Мариуполь","Бахмут", "Белгород", "Луганск", "Угольдар", "Краматорск", "Макеевка", "Северск", "Соледар", "Украинск"]
+		"spyNames":["Oleksandr", "Danya", "Volodymir", "Anna", "Dmytro", "Sergiy", "Ivan", "Taras"]
+	}
+	{
+		"name":"Crimea"
+		"leaderName":"Хан Гирей"
+		"adjective":["Crimean", "Tatar"]
+		"startBias":["Jungle", "Coast"]
+		"preferredVictoryType":"Domination"
+		"favoredReligion":"Islam"
+		
+		"startIntroPart1": "Я крымская республика, потомок Османов",
+		"startIntroPart2": "Ты должен вернуть былую империю!",
+		"declaringWar": "Сила кроеться в истории, но моя история сильней...",
+		"attacked": "Великая орда не сдаётся!",
+		"defeated": "Я когдато востану с мертвецов!",
+		"introduction": "Я крымская республика, потомок Османов"
+		"neutralHello": "Салам-Алейкум",
+		"neutralNo": ["Нет"],
+		"neutralYes": ["Хорошо"],
+		"afterPeace": "Этот мир важен для обоих сторон",
+		"tradeRequest": "Стонкс",
+		"innerColor": [0,0,0],
+		"outerColor": [0,255,255],
+		"uniqueName":"Суб-Тропичный климат"
+		"uniques":[
+"[+1 Food] in cities on [Jungle] tiles",
+"[+1 Gold] from each Trade Route", "[+2 Production] [in capital] <starting from the [Classical era]>"
+]
+		"cities": [ 
+		"Севастополь", "Симферополь", "Бахчи-сарай", "Белогорск", "Армянск", "Керчь", "Кафа", "Feodosia", "Ялта"
+		]
+	}
+	{
+		"name":"Vagner"
+		"leaderName":"Пригожин"
+		"adjective":["Vagnerian"]
+		"startBias":["Grassland"]
+		"preferredVictoryType":"Domination"
+		"favoredReligion":"Moscow religion"
+		
+		"startIntroPart1": "Я ЧВК вагнер, и я хочу узнать почему в стране творяться беспорядки",
+		"startIntroPart2": "",
+		"declaringWar": "Нас 25 тысяч, и мы идем росбираться почему в стране творяться беспорядки",
+		"attacked": "Мы свергнем ваши правительство!",
+		"defeated": "Это все было по плану.",
+		"introduction": "Я ЧВК Вагнер,  если вы будете шутить со мной то знайте-мои люди уже среди вашего правительства"
+		"neutralHello": "Бум-у вас в столице",
+		"neutralNo": ["Нет"],
+		"neutralYes": ["Ладно"],
+		"afterPeace": "Это только временно....",
+		"tradeRequest": "Опа, аптечка",
+		
+		"uniqueName":"Востание"
+		"innerColor": [165,174,255],
+		"outerColor": [173,30,30],
+		"cities": [ 
+		"Ростов-на-дону", "Екатеринбург", "Воронеж", "Липецк", "Тульск", "город 6", "город 7", "Город 8", "Город 9"
+		]
+		"uniques":["[+20]% Production when constructing [Melee] units [in all cities]", "[+50]% spy effectiveness [in all cities]", "[+1 Food, +1 Production] from every [Walls]", "[+1 Food, +1 Production] from every [Castle]", "[+1 Food, +1 Production] from every [Trench]", "[+1 Food, +1 Production] from every [Arsenal]", "[+1 Food, +1 Production] from every [Military Base]"]
+	}
+	{
+		"name":"Donetsk"
+		"adjective":["Donetska"]
+		"cityStateType": "Cultured",
+		"declaringWar":"Ты был не из лучших"
+		"attacked":"За что?"
+		"defeated":"Передай маме что я любил ее....."
+		"outerColor": [0, 0, 0],
+		"innerColor": [212, 15, 15],
+		"cities":["Donetsk"]
+	}
+	{
+		"name":"Lugansk"
+		"adjective":["Lugan"]
+		"cityStateType": "Militaristic",
+		"declaringWar":"Ты мне не нравился..."
+		"attacked":"Борзый слишком!?"
+		"defeated":"Подумаешь......"
+		"outerColor": [0, 0, 0],
+		"innerColor": [0, 204, 204],
+		"cities":["Lugansk"]
+	}
+	{
+		"name":"Feodoro"
+		"adjective":["Feodor"]
+		"cityStateType": "Maritime",
+		"declaringWar":"Слава Византии!"
+		"attacked":"Великая Византия не пала и не падет!"
+		"defeated":"Проклятые Турки!"
+		"outerColor": [0, 0, 0],
+		"innerColor": [234, 188, 118],
+		"cities":["Feodosia"]
+	}
+]

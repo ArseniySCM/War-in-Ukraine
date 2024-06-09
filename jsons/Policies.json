@@ -1,0 +1,109 @@
+[
+	{
+	"name":"West"
+	"era":"Medieval era"
+	"priorities": {
+			"Neutral":0
+			"Cultural":10
+			"Diplomatic":10
+			"Domination":0
+			"Scientific":0
+			},
+			"uniques":[
+			"[+1 Culture] [in all cities]",
+			"[+2 Happiness] [in capital]"
+			"[+3 Faith] [in capital]",
+			"Only available <before adopting [East]>"
+			],
+			"policies":[
+				{
+				"name":"Urbanization"
+				"uniques":["[+2 Food] [in all cities]","[+10]% growth [in all cities]"]
+				"row":1
+				"column":1
+				}
+				{
+					"name":"Center of world"
+					"uniques":["[+2 Production] [in all cities]", "[+1 Production] [in capital] <starting from the [Industrial era]> "]
+				"row": 1
+				"column":3
+				}
+				{
+				"name":"Налоги"
+				"uniques":["[+1 Gold] [in all cities]", "[+3 Gold] [in capital]"]
+				"row":1
+				"column":5
+				}
+				{
+				"name":"In continent"
+				"requires":["Налоги", "Center of world"]
+				"uniques":["[+1] Movement <for [{Military} {Water}] units>", "[-25]% maintenance on road & railroads", "[+1 Culture, +2 Gold, +1 Production] from every [Lighthouse]"]
+				"row":2
+				"column":4
+				}
+				{
+					"name":"Central powers"
+					"requires":["Urbanization"]
+					"uniques":["[+10]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>", "[+3 Production] [in capital]"]
+				"row":2
+				"column":1
+				}
+				{
+					"name":"West Complete"
+					"uniques":["[+10]% [Science] [in all cities]", "[+10]% growth [in all cities]"]
+				}
+			]
+	}
+	{
+		"name":"East"
+		"era":"Medieval era"
+		"priorities": {
+			"Neutral":10
+			"Cultural":0
+			"Diplomatic":0
+			"Domination":10
+			"Scientific":0
+			},
+		"uniques":[
+			"New [Melee] units start with [10] Experience [in capital]",  "Only available <before adopting [West]>"
+			],
+			"policies": [
+				{
+					"name":"Hot climate"
+					"uniques":["[+1 Science, +1 Culture] in cities on [Desert] tiles"]
+					"row":1
+					"column":1
+					}
+					{
+						"name":"Second world"
+						"uniques":["[+1 Science] in cities on [Mountain] tiles", "[+1] Movement <for [{Military} {Water}] units>"]
+						"row":1
+						"column":3
+					}
+					{
+						"name":"Totalitaric history"
+						"requires":["Hot climate"]
+						"uniques":["[+1 Food] in cities on [Tundra] tiles"]
+						"row":2
+						"column":1
+					}
+					{
+						"name":"Big territory"
+						"requires":["Second world"]
+						"uniques":["[-10]% Culture cost of natural border growth [in all cities]"]
+						"row":2
+						"column":3
+					}
+					{
+						"name":"Central cities"
+						"uniques":["[+25]% Strength for cities"]
+						"row":1
+						"column":5
+					}
+					{
+						"name":"East Complete"
+						"uniques":["[+4 Production] [in capital]"]
+					}
+			]
+	}
+]

@@ -1,0 +1,36 @@
+[
+	{
+		"name":"Trench",
+		"cost":150,
+		"requiredTech":"Rifling",
+		"cityStrength":3
+		"uniques": ["New [Military] units start with [10] Experience [in this city]"]
+	}
+	{
+		"name":"Donbas monument"
+		"uniqueTo":"Donbas"
+		"replaces":"Monument"
+		"cost":"50"
+		"culture":3
+		"maintenance":1
+	}
+	{
+		"name":"Slave bazaar"
+		"specialistSlots": {"Merchant": 1},
+		"gold":3
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+		"replaces": "Market",
+		"uniqueTo": "Crimea",
+		"uniques":["[+2 Gold] from [Jungle] tiles [in this city]"]
+	}
+	{
+		"name":"Khrushchev buildings"
+		"uniqueTo":"Russian federation"
+		"requiredTech":"Architecture"
+		"food":3
+		"maintenance": 2
+		"production":1
+		"requiredBuilding":"Granary"
+	}
+]

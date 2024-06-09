@@ -1,0 +1,109 @@
+[
+	{
+		"name":"Kamikaze",
+		"unitType":"Helicopter",
+		"movement":2,
+		"strength":30,
+		"cost":150,
+		"requiredTech":"Dynamite",
+		"uniques": [ "[-70]% Strength <vs cities> <when attacking>",
+"[+30]% Strength <vs [Military] units>",
+"Self-destructs when attacking",
+"Can move immediately once bought",
+"May enter foreign tiles without open borders",
+"All tiles cost 1 movement",
+		]
+	},
+	{
+		"name":"Ukrainian soldier",
+		"replaces":"Infantry",
+		"uniqueTo":"Ukraine"
+		"requiredTech":"Plastics"
+		"unitType":"Gunpowder",
+		"movement": 2,
+		"strength": 73,
+		"cost":350,
+		"uniques":["Can move after attacking"],
+	},
+	{
+		"name": "T90",
+		"unitType": "Armored",
+		"replaces": "Tank",
+		"requiredTech":"Combined Arms"
+		"uniqueTo": "Russian federation",
+		"requiredResource": "Oil",
+		"movement": 6,
+		"cost": 390,
+		"strength": 75,
+		"uniques": ["Can move after attacking"],
+		"attackSound": "tankshot",
+	}
+	{
+		"name":"Militiaman"
+		"unitType":"Gunpowder"
+		"replaces":"Rifleman"
+		"requiredTech":"Rifling"
+		"uniqueTo":"Donbas"
+		"cost":175
+		"strength":30
+		"movement":2
+		"uniques":["No defensive terrain bonus", "Can move immediately once bought"]
+	}
+	{
+		"name":"Bayraktar"
+		"unitType":"Fighter"
+		"uniqueTo":"Ukraine"
+		"replaces":"Fighter"
+		"requiredTech":"Radar"
+		"range":10
+		"cost":425
+		"strength":50
+		"rangedStrength":55
+		"uniques":["[+150]% Strength <vs [Air] units>", "[100]% chance to intercept air attacks"]
+		"attackSound": "machinegun"
+		"upgradesTo":"Jet Fighter"
+		"requiredResource": "Oil",
+		"movement":1
+	}
+	{
+		"name":"Khazar"
+		"replaces":"Pikeman"
+		"uniqueTo":"Crimea"
+		"movement":3
+		"unitType":"Archery"
+		"strength":14
+		"rangedStrength":17
+		"range":2
+		"upgradesTo":"Lancer"
+		"cost": 90
+		"uniques":["Can move after attacking", "No defensive terrain bonus"]
+		"requiredTech":"Civil Service"
+		"obsoleteTech":"Metallurgy"
+		"requiredResource": "Horses",
+	}
+	{
+		"name":"TikToker"
+		"uniqueTo":"Vagner"
+		"replaces":"Scout"
+		"unitType":"Scout"
+		"strength":6
+		"movement": 3
+		"cost":30
+		"promotions":["Scouting I"]
+		"obsoleteTech":"Theology"
+	}
+	{
+		"name":"Vagnerman"
+		"replaces":"Gatling Gun"
+		"uniqueTo":"Vagner"
+		"unitType":"Ranged Gunpowder"
+		"strength": 30
+		"rangedStrength":33
+		"range":1
+		"movement":3
+		"requiredTech":"Industrialization"
+		"upgradesTo":"Machine Gun"
+		"obsoleteTech":"Ballistics"
+		"cost":200
+	}
+]
