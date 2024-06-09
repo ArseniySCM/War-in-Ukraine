@@ -1,0 +1,1 @@
+project https://github.com/ArseniySCM/SVO-mod/tree/unciv-mod
