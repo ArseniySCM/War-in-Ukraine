@@ -1,0 +1,47 @@
+update.png
+size: 256, 256
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/Hamas
+rotate: false
+xy: 192, 0
+size: 64, 64
+orig: 64, 64
+offset: 0
+index: -1
+BuildingIcons/Gas well
+rotate: false
+xy: 192, 64
+size: 64, 64
+orig: 64, 64
+offset: 0
+index: -1
+NationIcons/Israel
+rotate: false
+xy: 0, 0
+size: 96, 96
+orig: 96, 96
+offset: 0
+index: -1
+NationIcons/Syria
+rotate: false
+xy: 96, 0
+size: 96, 96
+orig: 96, 96
+offset: 0
+index: -1
+NationIcons/Syrian Opposition
+rotate: false
+xy: 192, 0
+size: 96, 96
+orig: 96, 96
+offset: 0
+index: -1
+NationIcons/Palestine
+rotate: false
+xy: 192, 96
+size: 96, 96
+orig: 96, 96
+offset: 0
+index: -1
