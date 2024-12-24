@@ -33,14 +33,14 @@ offset: 0
 index: -1
 NationIcons/Syrian Opposition
 rotate: false
-xy: 192, 0
+xy: 0, 96
 size: 96, 96
 orig: 96, 96
 offset: 0
 index: -1
 NationIcons/Palestine
 rotate: false
-xy: 192, 96
+xy: 96, 96
 size: 96, 96
 orig: 96, 96
 offset: 0
