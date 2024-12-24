@@ -33,4 +33,14 @@
 		"production":1
 		"requiredBuilding":"Granary"
 	}
+	{
+		"name":"Gas well"
+		"uniqueTo":"Palestine"
+		"requiredTech":"Electricity"
+		"replaces":"Hydro Plant"
+		"maintenance": 3
+		"production":3
+		"gold":2
+		"uniques":["Must be next to [Desert]", "[+1 Gold, +1 Production] from [Desert] tiles [in this city]", "[+10]% [Production] [in this city]"]
+	}
 ]

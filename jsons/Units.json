@@ -106,4 +106,18 @@
 		"obsoleteTech":"Ballistics"
 		"cost":200
 	}
+	{
+		"name": "Hamas",
+		"unitType": "Armored",
+		"uniqueTo":"Palestine"
+		"replaces":"Tank"
+		"movement": 4,
+		"strength": 75,
+		"cost": 400,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
+		"upgradesTo": "Modern Armor",
+		"uniques": ["Can move after attacking","Never appears as a Barbarian unit", "No movement cost to pillage", "May capture killed [Armored] units <with [80]% chance>", "[+20]% to Flank Attack bonuses"],
+		"attackSound": "tankshot"
+	},
 ]

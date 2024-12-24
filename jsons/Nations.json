@@ -188,4 +188,77 @@
 		"innerColor": [234, 188, 118],
 		"cities":["Feodosia"]
 	}
+	{
+		"name":"Israel"
+		"adjective":["Eurei"]
+		"startBias":["Desert"]
+		"favoredReligion":"Judaism"
+		"leaderName":"Benjamin Netanyahu"
+		"preferredVictoryType":"Diplomatic"
+		//"favoredReligion":"Moscow religion"
+		
+		"startIntroPart1": "Glory of Israel",
+		"startIntroPart2": "",
+		"declaringWar": "We declare war you",
+		"attacked": "we defends to last!",
+		"defeated": "This.... Unreal.....",
+		"introduction": ""
+		"uniqueName":"Mille history"
+		"innerColor": [91,137,171],
+		"outerColor": [255,255,255],
+		"cities": ["Jerusalem", "Tel Aviv", "Haifa", "Beersheba", "Eilat", "Nazareth", "Ashdod", "Netanya", "Acre", "Tiberias"]
+		"uniques":["[+10]% [Gold] [in all cities]", "Gain a free [Market] [in capital] <after discovering [Currency]>", "[+1 Faith]", "[+15]% Strength <when fighting in [Desert] tiles> <for [All] units>"]
+	}
+	{
+		"name":"Palestine"
+		"adjective":["Arabian"]
+		"startBias":["Desert"]
+		"favoredReligion":"Islam"
+		"leaderName":"Mahmoud Abbas"
+		"preferredVictoryType":"Domination"
+		
+		"startIntroPart1": "We native of palestine",
+		"startIntroPart2": "",
+		"declaringWar": "You threaten our sovereignty!",
+		"attacked": "Free Palestine!",
+		"defeated": "Ok",
+		"uniqueName":"Arab"
+		"innerColor": [255, 255, 100],
+		"outerColor": [35, 150, 0],
+		"cities":["Gaza", "Ramallah", "Hebron", "Nablus", "Jericho", "Bethlehem", "Jenin", "Tulkarm", "Khan Yunis", "Rafah"]
+		"uniques":["[+1 Food] in cities on [Desert] tiles"]
+	}
+	{
+		"name":"Syria"
+		"adjective":["Syrian"]
+		"startBias":["Desert"]
+		"favoredReligion":"Islam"
+		"leaderName":"Bashar al-Assad"
+		"preferredVictoryType":"Domination"
+		"startIntroPart1": "Syria, amogus",
+		"startIntroPart2": "",
+		"uniqueName":"lol"
+		"innerColor": [57, 39, 1],
+		"outerColor": [255, 152, 152],
+
+		"cities":["Damascus", "Aleppo", "Homs", "Hama", "Latakia", "Tartus", "Deir ez-Zor", "Raqqa", "Qamishli", "Daraa"]
+		"uniques":["[-10]% Strength for cities", "[+1 Gold, +1 Production] per [4] population [in capital]", "May buy [Mosque] buildings for [100] [Culture] [in all cities] at an increasing price ([3]) <starting from the [Medieval era]>"]
+	}
+	{
+		"name":"Syrian Opposition"
+		"adjective":["Syrian"]
+		"startBias":["Desert"]
+		"favoredReligion":"Islam"
+		"leaderName":"Hayat Tahrir al-Sham"
+		"preferredVictoryType":"Diplomatic"
+		"startIntroPart1": "Syria, amogus, opposition",
+		"startIntroPart2": "",
+		"uniqueName":"hdgdg"
+		"outerColor": [96, 54, 219],
+		"innerColor": [208, 177, 113],
+
+
+		"cities":["Liberty Hill", "Freedom Vale", "Justice Reach", "New Horizon", "Brightstone", "Unity Ridge", "Hopefield", "Reclaimtown", "Bravemarch", "Victory Hollow"]
+		"uniques":["[+150]% to Flank Attack bonuses <for [All] units>", "[-10]% [Science]", "[+2 Science] from every [Barracks]", "[+5]% maintenance costs", "[-20]% Gold cost of upgrading"]
+	}
 ]
